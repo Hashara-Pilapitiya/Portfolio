@@ -100,6 +100,7 @@
         margin-top: 5rem;
         display: flex;
         gap: 3rem;
+        margin-right: -40px;
     }
 
     .project__details__image img {
