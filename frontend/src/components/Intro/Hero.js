@@ -1,6 +1,9 @@
 import React from 'react';
 import './hero.css';
 import HeroImage from '../../assets/Hero.jpg';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -14,6 +17,20 @@ const Hero = () => {
             <h1 className='third'>I am a Full Stack Developer</h1>
 
             <p> I am a Full Stack Developer with a passion for creating beautiful and functional websites. I have experience in both front-end and back-end development, and I am always looking to learn new technologies and improve my skills. I am currently looking for new opportunities to work on exciting projects and collaborate with other developers. </p>
+
+            <button className='btn' id='contact'><span>Contact Me</span></button>
+
+            <div className='social__icons'>
+                <a href='https://github.com/Hashara-Pilapitiya' target='_blank' rel='noreferrer'>
+                    <FaGithub />
+                </a>
+                <a href='https://www.linkedin.com/in/hashara-pilapitiya-939186220/'>
+                    <FaLinkedin />
+                </a>
+                <a href='https://www.facebook.com/hashara.nethmi.35/'>
+                    <FaFacebook />
+                </a>
+            </div>
 
         </div>
 
