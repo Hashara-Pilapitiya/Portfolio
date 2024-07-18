@@ -1,0 +1,37 @@
+.header {
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__title {
+    font-family: Edu AU VIC WA NT Hand, cursive;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav__title h1 {
+    color: var(--primary-color);
+}
+
+.nav__menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav__menu ul li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+
+.nav__menu ul li a:hover {
+    color: var(--teal-color);
+}
