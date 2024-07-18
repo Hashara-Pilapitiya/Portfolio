@@ -34,6 +34,12 @@ const Experiences = () => {
 
             <div>
 
+                <div className='experience__details'>
+                    <h1>{experiences[selectedItemIndex].title}</h1>
+                    <h2>{experiences[selectedItemIndex].company}</h2>
+                    <p>{experiences[selectedItemIndex].description}</p>
+                    </div>
+
             </div>
 
         </div>

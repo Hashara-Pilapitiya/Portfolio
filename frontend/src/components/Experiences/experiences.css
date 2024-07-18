@@ -4,9 +4,13 @@
 }
 
 .experiences__container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 1rem;
+}
+
+.experience__period {
+    width: 160px;
 }
 
 .experience__period h1 {
@@ -26,4 +30,65 @@
 .non-active {
     cursor: pointer;
     color: white;
+}
+
+.experience__details {
+    margin-top: -8px;
+}
+
+.experience__details h1 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+}
+
+.experience__details h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--teal-color);
+}
+
+.experience__details p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    color: white;
+    line-height: 25px;
+}
+
+
+
+
+@media  screen and (max-width: 768px) {
+    .experiences {
+        padding: 0 2rem;
+        width: 900px;
+    }
+
+    .experiences__container {
+        display: flex;
+        gap: 5rem;
+    }
+
+    .experience__period {
+        width: 45%;
+    }
+
+    .experience__details {
+        margin-top: 1rem;
+        margin-right: 20px;
+    }
+
+    .experience__details h1 {
+        font-size: 1.5rem;
+    }
+
+    .experience__details h2 {
+        font-size: 1rem;
+    }
+
+    .experience__details p {
+        font-size: 0.7rem;
+    }
+    
 }
