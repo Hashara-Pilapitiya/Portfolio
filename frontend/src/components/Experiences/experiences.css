@@ -60,11 +60,12 @@
 
 @media  screen and (max-width: 768px) {
     .experiences {
-        padding: 0 2rem;
+        padding: 0 1rem 0 5rem;
         width: 900px;
     }
 
     .experiences__container {
+        margin-top: 20px;
         display: flex;
         gap: 5rem;
     }

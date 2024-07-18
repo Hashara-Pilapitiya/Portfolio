@@ -76,3 +76,56 @@
     color: var(--teal-color);
     margin-right: 1rem;
 }
+
+
+
+
+@media  screen and (max-width: 768px) {
+    .projects {
+        padding: 0 1rem 0 5rem;
+        width: 900px;
+    }
+
+    .projects__container {
+        margin-top: 20px;
+        display: flex;
+        gap: 5rem;
+    }
+
+    .project__title {
+        width: 150px;
+    }
+
+    .project__details {
+        margin-top: 5rem;
+        display: flex;
+        gap: 3rem;
+    }
+
+    .project__details__image img {
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .project__details h1 {
+        font-size: 1.5rem;
+    }
+
+    .project__details h2 {
+        font-size: 1rem;
+    }
+
+    .project__details p {
+        font-size: 0.8rem;
+    }
+
+    .project__details__buttons {
+        font-size: 1.5rem;
+    }
+
+    .project__details__buttons a {
+        margin-right: 0.5rem;
+    }
+    
+}

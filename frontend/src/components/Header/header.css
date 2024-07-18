@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        width: 900px;
+        width: 1200px;
         padding: 2rem 0;
     }
 
@@ -52,7 +52,7 @@
     .nav__title h1 {
         font-size: 1.5rem;
         text-align: center;
-        margin-left: 350px;
+        margin-left: 400px;
     }
 
 }

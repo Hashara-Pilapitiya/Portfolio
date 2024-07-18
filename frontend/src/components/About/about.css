@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 768px) {
     .about {
-        padding: 0 2rem;
+        padding: 0 5rem;
         width: 900px;
     }
 
@@ -75,12 +75,13 @@
 
     .about__left img {
         width: 60%;
-        margin-left: 20%;
+        margin-left: 30%;
     }
 
     .about__right p {
         font-size: 0.8rem;
-        margin-right: 20px;
+        margin-top: 20px;
+        margin-right: -7rem;
     }
 
     .skills__title {
@@ -89,6 +90,7 @@
 
     .skills__list {
         gap: 1.5rem;
+        margin-right: -7rem;
     }
 
     .skill {

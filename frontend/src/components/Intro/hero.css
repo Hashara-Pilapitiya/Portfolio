@@ -106,7 +106,7 @@
 
 @media screen and (max-width: 768px) {
     .hero {
-        padding: 0 2rem;
+        padding: 0 5rem;
         width: 900px;
         flex-direction: column;
     }
@@ -130,6 +130,7 @@
 
     .hero__text p {
         font-size: 0.7rem;
+        margin-right: -8rem;
     }
 
     .hero__text button {
@@ -151,7 +152,7 @@
     .box01 {
         position: absolute;
         top: 450px;
-        right: -60px;
+        right: -110px;
         width: 200px;
         height: 200px;
         margin-right: 40px;
