@@ -130,7 +130,6 @@
 
     .hero__text p {
         font-size: 0.7rem;
-        margin-right: 130px;
     }
 
     .hero__text button {
@@ -152,7 +151,7 @@
     .box01 {
         position: absolute;
         top: 450px;
-        right: -40px;
+        right: -60px;
         width: 200px;
         height: 200px;
         margin-right: 40px;
