@@ -5,9 +5,9 @@
 /*font-family: "Edu AU VIC WA NT Hand", cursive;*/
 
 :root {
-  --primary-color: #2e2e2e;
+  --primary-color: #123345;
   --secondary-color: #FFD700;
-  --teal-color: #39CCCC;
+  --teal-color: #8CABFF;
 }
 
 * {
