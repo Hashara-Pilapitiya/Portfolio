@@ -8,8 +8,8 @@
     gap: 20rem;
 }
 
-.experience__period {
-    width: 320px;
+.experience {
+    width: 160px;
 }
 
 .experience__period h1 {
@@ -22,7 +22,7 @@
     cursor: pointer;
     border-left: 3px solid var(--teal-color);
     background-color: #355363;
-    padding: 0.4rem ;
+    padding: 0.4rem;
     border-radius: 0.3rem;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .experience__details {
-    margin-top: -8px;
+    margin-top: 10px;
 }
 
 .experience__details h1 {
