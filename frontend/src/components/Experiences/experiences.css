@@ -4,13 +4,12 @@
 }
 
 .experiences__container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 1rem;
+    display: flex;
+    gap: 20rem;
 }
 
 .experience__period {
-    width: 160px;
+    width: 320px;
 }
 
 .experience__period h1 {

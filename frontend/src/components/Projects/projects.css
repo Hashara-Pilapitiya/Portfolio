@@ -1,0 +1,78 @@
+.projects {
+    padding: 0 7rem;
+    margin-top: 2rem;
+}
+
+.projects__container {
+    display: flex;
+    gap: 22rem;
+}
+
+.project__title {
+    width: 160px;
+}
+
+.project__title h1 {
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.active {
+    color: var(--teal-color);
+    cursor: pointer;
+    border-left: 3px solid var(--teal-color);
+    background-color: #355363;
+    padding: 0.4rem ;
+    border-radius: 0.3rem;
+}
+
+.non-active {
+    cursor: pointer;
+    color: white;
+}
+
+.project__details {
+    margin-top: 50px;
+    display: flex;
+    gap: 6rem;
+}
+
+.project__details__image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 0.5rem;
+
+}
+
+.project__details__text {
+    margin-top: 20px;
+}
+
+.project__details h1 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+}
+
+.project__details h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--teal-color);
+}
+
+.project__details p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    color: white;
+    line-height: 25px;
+}
+
+.project__details__buttons {
+    font-size: 1.8rem;
+}
+
+.project__details__buttons a {
+    color: var(--teal-color);
+    margin-right: 1rem;
+}
