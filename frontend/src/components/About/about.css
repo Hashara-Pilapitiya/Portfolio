@@ -2,3 +2,62 @@
     background-color: var(--primary-color);
     padding: 0 7rem;
 }
+
+.about__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about__content {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+.about__left img {
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.about__right {
+    margin-top: -1.5rem;
+}
+
+.about__right p {
+    text-align: justify;
+    font-size: 0.9rem;
+    color: white;
+    gap: 1rem;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.about__skills {
+    margin-top: 2rem;
+}
+
+.skills__title {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.skills__list {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.skill {
+    border: 2px solid var(--secondary-color);
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+}

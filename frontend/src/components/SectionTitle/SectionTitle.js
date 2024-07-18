@@ -6,10 +6,6 @@ const SectionTitle = ({title}) => {
     <div className='title'>
     
         <h1 className='section__title'>{title}</h1>
-    
-        <div className='line'>
-            
-        </div>
 
     </div>
 

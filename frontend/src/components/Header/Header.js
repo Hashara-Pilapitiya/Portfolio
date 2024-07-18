@@ -45,7 +45,7 @@ const Header = () => {
                 <ul>
                     {nav_links.map((link, index) => (
                         <li key={index}>
-                            <Link to={link.path}>{link.display}</Link>
+                            <a href={link.path}>{link.display}</a>
                         </li>
                     ))}
                 </ul>
