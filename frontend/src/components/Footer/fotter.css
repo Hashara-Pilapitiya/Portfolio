@@ -1,0 +1,32 @@
+.footer {
+    padding: 0 7rem;
+}
+
+.footer__line {
+    height: 0.2rem;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.footer__content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.footer__content .name {
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.footer__content span {
+    color: var(--teal-color);
+}
+
+.footer__content .all {
+    color: var(--teal-color);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
