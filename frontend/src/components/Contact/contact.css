@@ -1,0 +1,35 @@
+.contact {
+    padding: 0 7rem;
+    margin-top: 20px;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+}
+
+.contact__icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: var(--teal-color);
+}
+
+.contact__text {
+    margin-top: -0.3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.contact__text a {
+    color: white;
+    text-decoration: none;
+}
