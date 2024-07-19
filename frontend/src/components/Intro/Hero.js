@@ -5,7 +5,21 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
+const PDF_FILE_URL = 'http://localhost:3000/CV.pdf';
+
 const Hero = () => {
+
+    const downloadFileAtURL = (url) => {
+        const fileName = url.split('/').pop();
+        const aTag = document.createElement('a');
+        aTag.href = url;
+        aTag.setAttribute('download', fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+    }
+
+
   return (
     <div className='hero'>
         <div className='hero__text'>
@@ -18,7 +32,7 @@ const Hero = () => {
 
             <p> I am a Full Stack Developer with a passion for creating beautiful and functional websites. I have experience in both front-end and back-end development, and I am always looking to learn new technologies and improve my skills. I am currently looking for new opportunities to work on exciting projects and collaborate with other developers. </p>
 
-            <button className='btn' id=''><span>Contact Me</span></button>
+            <button onClick={() => {downloadFileAtURL(PDF_FILE_URL)}} className='btn' id=''><span>Download CV</span></button>
 
             <div className='social__icons'>
                 <a href='https://github.com/Hashara-Pilapitiya' target='_blank' rel='noreferrer'>
