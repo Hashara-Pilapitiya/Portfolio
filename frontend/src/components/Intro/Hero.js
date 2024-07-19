@@ -18,7 +18,7 @@ const Hero = () => {
 
             <p> I am a Full Stack Developer with a passion for creating beautiful and functional websites. I have experience in both front-end and back-end development, and I am always looking to learn new technologies and improve my skills. I am currently looking for new opportunities to work on exciting projects and collaborate with other developers. </p>
 
-            <button className='btn' id='contact'><span>Contact Me</span></button>
+            <button className='btn' id=''><span>Contact Me</span></button>
 
             <div className='social__icons'>
                 <a href='https://github.com/Hashara-Pilapitiya' target='_blank' rel='noreferrer'>
