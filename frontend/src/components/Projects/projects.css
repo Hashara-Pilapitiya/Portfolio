@@ -5,7 +5,7 @@
 
 .projects__container {
     display: flex;
-    gap: 22rem;
+    gap: 19rem;
 }
 
 .project__title {
