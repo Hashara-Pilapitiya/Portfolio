@@ -62,3 +62,34 @@
     color: white;
     line-height: 25px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .courses {
+        padding: 0 5rem;
+    }
+
+    .courses__container {
+        flex-direction: column;
+        width: 800px;
+    }
+
+    .course__title {
+        display: flex;
+        gap: 8rem;
+    }
+
+
+    .course__details {
+        margin-top: -10rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .course__details__image img {
+        width: 200px;
+        height: 200px;
+        margin-left: 300px;
+    }
+}
