@@ -33,3 +33,21 @@
     color: white;
     text-decoration: none;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .contact {
+        padding: 0 5rem;
+    }
+
+    .contact__container {
+        margin-top: 1px;
+        align-items: center;
+    }
+
+    .contact__item {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
